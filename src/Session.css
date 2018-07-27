@@ -1,0 +1,30 @@
+.Session {
+    border : 1px solid black;
+    position: relative;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.Session.living {
+    background-color: green
+}
+
+
+.Session.acquainting {
+    background-color: blue
+}
+
+
+.Session.transcending {
+    background-color: red
+}
+.Session > .Session-title {
+    text-align: left;
+    margin: 0 0;
+}
+
+.Session-room {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
