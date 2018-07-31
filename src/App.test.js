@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import App from './App';
+import Header from './Header';
 
 it('renders without crashing', () => {
   const wrapper = shallow(<App />);
@@ -9,7 +10,7 @@ it('renders without crashing', () => {
 
 it('should have header', () => {
   const wrapper = shallow(<App />);
-  expect(wrapper.find('header')).to.have.length(1);
+  expect(wrapper.find(Header)).to.have.length(1);
 });
 
 it('should have section', () => {

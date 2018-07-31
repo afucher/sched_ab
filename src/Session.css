@@ -6,17 +6,17 @@
 }
 
 .Session.living {
-    background-color: green
+    border-color: green
 }
 
 
 .Session.acquainting {
-    background-color: blue
+    border-color: blue
 }
 
 
 .Session.transcending {
-    background-color: red
+    border-color: red
 }
 .Session > .Session-title {
     text-align: left;

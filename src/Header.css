@@ -1,0 +1,8 @@
+.Header-logo{
+    width: 100px;
+}
+
+.Header > h1 {
+    text-align: right;
+    float: right;
+}
