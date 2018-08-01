@@ -5,6 +5,10 @@
     margin: 5px 0;
 }
 
+.Session.program {
+    background-color: rgb(148, 154, 160);
+}
+
 .Session.living {
     border-color: green
 }

@@ -3,7 +3,7 @@ import './Session.css';
 
 const Session = (props) => {
     return (
-    <div className={`Session ${props.level}`}>
+    <div className={`Session ${props.level} ` + (props.program?'program':'')}>
         <h2 className="Session-title">{props.title}</h2>
         <span className="Session-room">{props.room}</span>
     </div>)

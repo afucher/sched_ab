@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Session from './Session';
+import Schedule from './Schedule';
 import Header from './Header';
-import Time from './Time';
+import data from './data.json'
 
 class App extends Component {
   render() {
@@ -10,11 +10,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <section>
-          <Time value="09:00" />
-          <Session title="Title 1" room="Room 1" level="acquainting"/>
-          <Session title="Title 2" room="Room 2" level="living"/>
-          <Time value="09:30" />
-          <Session title="Title 2" room="Room 2"/>
+          <Schedule data={data} />
         </section>
       </div>
     );

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 14,
+        "title": "Title 1",
+        "room": "Room 1",
+        "level": "acquainting",
+        "start_hour" : "09:00"
+    },
+    {
+        "id":42,
+        "title": "Title 2",
+        "room": "Room 3",
+        "level": "living",
+        "start_hour": "09:30"
+    },
+    {
+        "id":45,
+        "title": "Title 4",
+        "room": "Room 3",
+        "level": "transcending",
+        "start_hour": "09:30"
+    }
+]
